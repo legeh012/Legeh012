@@ -1,0 +1,18 @@
+{
+  "name": "storyforgeapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "npx serve -s build -l 3000",
+    "server": "node ../server/index.js/index.js",
+    "verify": "node ./scripts/verify-dev-flow.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "axios": "^1.6.0"
+  }
+}

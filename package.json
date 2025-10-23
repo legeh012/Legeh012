@@ -1,0 +1,10 @@
+{
+  "name": "storyforgeapp-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix ./frontend run start",
+    "server": "npm --prefix ./frontend run server",
+    "verify": "node ./scripts/verify-dev-flow.js"
+  }
+}

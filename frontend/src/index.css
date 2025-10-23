@@ -1,0 +1,11 @@
+/* Minimal styles for the frontend build */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: #f7f7fb;
+  color: #111;
+}
+
+#root {
+  padding: 12px 18px;
+}
