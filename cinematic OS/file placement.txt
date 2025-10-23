@@ -1,0 +1,7 @@
+Place cinematic module files under src/modules and ensure assets live in public/assets.
+
+Example structure:
+- src/modules/videoEngine.js
+- src/modules/storyForge.js
+- public/assets/say-wallahi-ep3.mp4
+- public/assets/somali-diaspora-beat-01.mp4

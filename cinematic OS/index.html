@@ -1,0 +1,17 @@
+<video id="clipPlayer" width="640" controls>
+  <source src="./public/assets/somali-diaspora-beat-01.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<script>
+  // Dynamically update video source if needed
+  function loadClip(clipPath) {
+    const player = document.getElementById('clipPlayer');
+    player.src = clipPath;
+    player.load();
+    player.play();
+  }
+
+  // Example usage:
+  loadClip('./public/assets/say-wallahi-ep3.mp4');
+</script>

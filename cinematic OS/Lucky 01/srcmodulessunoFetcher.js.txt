@@ -1,0 +1,6 @@
+// placeholder: implement suno track fetcher that returns metadata
+async function fetchLuckyTrack(id) {
+  return { audioUrl: `/assets/${id}.mp3`, artist: 'Unknown', album: 'Singles' };
+}
+
+export { fetchLuckyTrack };

@@ -1,0 +1,3 @@
+sunoTrackId: lucky-001
+artist: "Lucky Beats"
+album: "Wallahi Remixes"
