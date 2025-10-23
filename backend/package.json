@@ -1,0 +1,19 @@
+{
+  "name": "storyforge-wix-backend",
+  "version": "1.0.0",
+  "description": "StoryForge Wix Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "deploy": "wix functions deploy"
+  },
+  "dependencies": {
+    "@wix/serverless-api": "^1.0.0",
+    "@wix/storage": "^1.0.0",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
